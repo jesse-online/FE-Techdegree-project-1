@@ -111,7 +111,7 @@ header .profile-image:hover {
 }
 
 .card-fig-wide-right {
-  float:right;
+  float: right;
   margin: 0 0 0 20px;
 }
 
@@ -119,11 +119,10 @@ header .profile-image:hover {
   width: 100%;
   margin: 0 0 20px 0;
   padding: 0;
-  float:left;
 }
 
 .card-image {
-  width:100%;
+  width: 100%;
   margin: 0px;
   padding: 0px;
   border: solid #ccc 4px;
