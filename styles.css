@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/dc_fruits.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(-10deg);
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: lightgray;
 }
 .card {
   margin: 30px;
@@ -97,9 +97,44 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  overflow:auto;
 }
 .card:hover {
   border-color: #ff99ff;
+}
+
+.card-fig-wide {
+  width: 50%;
+  margin: 0 20px 0 0;
+  padding: 0;
+  float:left;
+}
+
+.card-fig-wide-right {
+  float:right;
+  margin: 0 0 0 20px;
+}
+
+.card-fig-narrow {
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 0;
+  float:left;
+}
+
+.card-image {
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+  border: solid #ccc 4px;
+  border-radius: 6px;
+}
+
+.card-fig-cap {
+  font-style: italic;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
 }
 
 ul.skills {
@@ -117,7 +152,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #4e598c;
 }
 
 footer {

@@ -2,54 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Jane Smith's Profile</title>
+  <title>Jesse's Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
 
-    <div class="main-nav">
+    <nav class="main-nav">
         <ul class="nav">
-          <li class="name">Jane Smith</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Experience</a></li>
+          <li class="name">Jesse Cleary-Budge</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="interests.html">Interests</a></li>
         </ul>
-    </div>
+    </nav>
 
     <header>
-      <img src="images/me.png" alt="Drawing of Jane Smith" class="profile-image">
-      <h1 class="tag name">Hello, I’m Jane.</h1>
-      <p class="tag location">My home is Portland, Oregon.</p>
+      <img src="images/mushroom_face.jpg" alt="Portrait of Jesse holding a portobello mushroom slice in front of his mustache" class="profile-image">
+      <h1 class="tag name">Hello, I’m Jesse.</h1>
+      <p class="tag location">I hail from Lexington, Kentucky, in the United States.</p>
     </header>
 
     <main class="flex">
-      <div class="card">
+      <section class="card">
         <h2>Background</h2>
-        <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-        <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
-      </div> 
+        <figure class="card-fig-wide">
+          <img src="images/cooking_with_Georgia.jpg" alt="Jesse" class="card-image">
+        <figcaption class="card-fig-cap">Cooking with my niece Georgia in Asheville, NC</figcaption>
+        </figure>
+        <p>I’m an aspiring web developer who loves cultivating creativity and collects keyboard shortcuts. I've moved around a lot and have worked for private companies and the U.S. government as a German translator and interpreter. I’m excited to bring my passions and stories to the process of creating sleek, useful websites and web apps.</p>
+        <p>In addition to being a proud uncle, I’m an inspired vegan cook and home gardener. As a life-long learner, I have a strong interest in cultural traditions, community and spirituality.</p>
+        <p>Check out my <a href="interests.html">Interests</a> to learn more about how I like to spend my time.</p> 
+      </section> 
 
-      <div class="card">
+      <section class="card">
         <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+        <figure class="card-fig-wide card-fig-wide-right">
+          <img src="images/professional.jpg" alt="Jesse" class="card-image">
+        <figcaption class="card-fig-cap">Suited up and ready for the future</figcaption>
+        </figure>
+        <p>I want to become adept at crafting websites and become fluent in all of the following languages and frameworks:</p>
         <ul class="skills">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Python</li>
         </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
-      </div> 
+        <p>I’d like to work as a freelance web developer helping clients create a professional online presence.</p>
+        <p>Take a peek at my <a href="experience.html">Experience</a> to learn more about how my professional life has shaped me.</p>
+      </section> 
 
     </main>
     <footer>
       <ul>
-        <li><a href="#" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
+        <li><a href="https://twitter.com/jesse_is_online" target="_blank" class="social twitter">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/clearyjd" target="_blank" class="social linkedin">LinkedIn</a></li>
+        <li><a href="http://github.com/jesse-online" target="_blank" class="social github">Github</a></li>
       </ul>
-      <p class="copyright">Copyright 2015, Jane Smith</p>
+      <p class="copyright">&copy; 2020, Jesse Cleary-Budge</p>
     </footer>
   </body>
   </html>
